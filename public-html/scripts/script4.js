@@ -1,5 +1,7 @@
 // 6. Crea una función mayorDeTres(a, b, c) que devuelva el mayor número
 
+console.log("EJERCICIO 4 (6.)");
+document.write(`<h3>Ejercicio 4</h3>`);
 // Declaración de variables
 let primer, segundo, tercero;
 
@@ -27,16 +29,24 @@ do {
 
 // Funcion mayorDeTres
 function mayorDeTres(a, b, c) {
-    const numeros = [a, b, c];
-    let mayor = numeros[0];
+    if (a === b && b === c && c === a) { // Verifica si todos los números son iguales
+        return "NO HAY NÚMERO MAYOR: Todos son iguales.";
+    }
+    const numeros = [a, b, c]; // Arreglo que almacena los números
+    let mayor = numeros[0]; // Se declara al primero como el mayor
+    // Ciclo for para encontrar el mayor
     for (let i = 0; i < numeros.length; i++) {
         if (numeros[i + 1] > numeros[i] && i + 1 < numeros.length) {
             mayor = numeros[i + 1];
             // a = b;
         }
     }
+    return mayor;
 }
 
 const resultado = mayorDeTres(primer, segundo, tercero);
 
-console.log(resultado);
+// Salida de datos
+console.log("Primero número: " + primer + "\nSegundo número: " + segundo + "\nTercer número: " + tercero);
+console.log("Número mayor: " + resultado);
+document.write(`<p><b>Números ingresados:</b><br>1°: ${primer}<br>2°: ${segundo}<br>3°: ${tercero}<br><b>Número mayor:</b> ${resultado}</p>`);
