@@ -41,7 +41,7 @@ function operacionesMatematicas(a, b) {
             case 4: return dividir();
             default: undefined;
         }
-    }
+    };
 }
 
 const resultado = operacionesMatematicas(num1, num2);
