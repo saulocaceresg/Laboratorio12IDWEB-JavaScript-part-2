@@ -1,6 +1,6 @@
 // 10. Crea una función flecha saludo que reciba un nombre y devuelva un mensaje
 
-console.log("EJERCICIO 8 (9.)");
+console.log("EJERCICIO 8 (10.)");
 document.write(`<h3>Ejercicio 8</h3>`);
 
 let nombre = prompt("¿Cuál es su nombre?");
