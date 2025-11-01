@@ -1,6 +1,6 @@
 // 13.	Crea una función procesarTexto que tenga una función interna limpiarEspacios y otra contarPalabras
 
-console.log("EJERCICIO 10 (12.)");
+console.log("EJERCICIO 10 (13.)");
 document.write(`<h3>Ejercicio 10</h3>`);
 
 let texto;
