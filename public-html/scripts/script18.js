@@ -32,6 +32,7 @@ do {
     
     opcion = parseFloat(opcion);
 
+    // Valida la opción
     if (opcion <= 0 || opcion > 4 || isNaN(opcion)) {
         alert("OPCIÓN NO VÁLIDA.\nINGRESE DE NUEVO.");
     }
