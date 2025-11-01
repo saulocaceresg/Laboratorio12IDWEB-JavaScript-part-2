@@ -22,5 +22,5 @@ filtrarArreglo(arreglo, arreglo => {
             document.write(arreglo[i] + "<br>");
         }
     }
-})
+});
 document.write(`</p>`);
